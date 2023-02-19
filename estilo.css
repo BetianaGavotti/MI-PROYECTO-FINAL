@@ -119,8 +119,15 @@ body {
     font-size: 25px;
 
 }
-.imagenPerfil, .infoContacto, .Habilidades, .Idiomas, .Descripción, .ExperienciaLaboral, .FormaciónAcadémica {
-margin-bottom: 30px;
+
+.imagenPerfil,
+.infoContacto,
+.Habilidades,
+.Idiomas,
+.Descripción,
+.ExperienciaLaboral,
+.FormaciónAcadémica {
+    margin-bottom: 30px;
 }
 
 .h2 {
@@ -129,8 +136,10 @@ margin-bottom: 30px;
 
 .underline {
     text-decoration: underline;
-  }
+}
 
-a:link, a:visited, a:active, a:hover {
+a {
     text-decoration: none;
+    color: black;
+    outline: none;
 }
