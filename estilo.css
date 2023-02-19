@@ -61,6 +61,7 @@ body {
     list-style: none;
     margin: 10px 0;
     cursor: pointer;
+    visibility: visible;
 }
 
 .infoContacto ul li .icon {
@@ -120,8 +121,12 @@ body {
 
 }
 
+.infoContacto {
+    margin-bottom: 30px;
+    display: none;
+}
+
 .imagenPerfil,
-.infoContacto,
 .Habilidades,
 .Idiomas,
 .Descripción,
