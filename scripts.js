@@ -1,1 +1,5 @@
 
+function imprimir(){
+    window.print();
+}
+
