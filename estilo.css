@@ -31,7 +31,7 @@ body {
     color: rgb(9, 10, 10);
     position: initial;
     background-color: #2da9f1;
-    padding: 20px;
+    padding: 30px;
     justify-content: space-around;
 }
 
@@ -178,4 +178,12 @@ a {
 .btn1:hover {
     background-color: #008CBA;
     color: white;
+}
+
+.center{
+    text-align: center;
+}
+
+.fuenteNombre{
+    font-family: 'Satisfy', cursive;
 }
